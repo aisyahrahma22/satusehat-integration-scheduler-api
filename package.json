@@ -1,0 +1,54 @@
+{
+  "name": "satusehat-scheduler-api",
+  "version": "0.0.1",
+  "description": "Satu Sehat Scheduler API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --watch",
+    "dev": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "async-validator": "^1.11.2",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.16.4",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.38",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^1.6.5",
+    "node-cron": "^2.0.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "postgre": "^0.1.8",
+    "promise": "^8.2.0",
+    "qgrail-broker": "0.0.1",
+    "ramda": "^0.26.1",
+    "randomstring": "^1.1.5",
+    "redis": "^2.8.0",
+    "sequelize": "^6.20.1",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "@faker-js/faker": "^7.1.0",
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  }
+}
